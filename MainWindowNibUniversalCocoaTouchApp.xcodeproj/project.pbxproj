@@ -12,7 +12,6 @@
 		31A5FE01149BDEA8009BE3EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A5FE00149BDEA8009BE3EC /* CoreGraphics.framework */; };
 		31A5FE07149BDEA8009BE3EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31A5FE05149BDEA8009BE3EC /* InfoPlist.strings */; };
 		31A5FE09149BDEA8009BE3EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A5FE08149BDEA8009BE3EC /* main.m */; };
-		31A5FE0D149BDEA8009BE3EC /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A5FE0C149BDEA8009BE3EC /* PRHAppDelegate.m */; };
 		31A5FE10149BDEA8009BE3EC /* PRHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A5FE0F149BDEA8009BE3EC /* PRHViewController.m */; };
 		31A5FE13149BDEA8009BE3EC /* PRHViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31A5FE11149BDEA8009BE3EC /* PRHViewController_iPhone.xib */; };
 		31A5FE16149BDEA8009BE3EC /* PRHViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31A5FE14149BDEA8009BE3EC /* PRHViewController_iPad.xib */; };
@@ -29,8 +28,6 @@
 		31A5FE06149BDEA8009BE3EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31A5FE08149BDEA8009BE3EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31A5FE0A149BDEA8009BE3EC /* MainWindowNibUniversalCocoaTouchApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainWindowNibUniversalCocoaTouchApp-Prefix.pch"; sourceTree = "<group>"; };
-		31A5FE0B149BDEA8009BE3EC /* PRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHAppDelegate.h; sourceTree = "<group>"; };
-		31A5FE0C149BDEA8009BE3EC /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
 		31A5FE0E149BDEA8009BE3EC /* PRHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHViewController.h; sourceTree = "<group>"; };
 		31A5FE0F149BDEA8009BE3EC /* PRHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHViewController.m; sourceTree = "<group>"; };
 		31A5FE12149BDEA8009BE3EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRHViewController_iPhone.xib; sourceTree = "<group>"; };
@@ -83,8 +80,6 @@
 		31A5FE02149BDEA8009BE3EC /* MainWindowNibUniversalCocoaTouchApp */ = {
 			isa = PBXGroup;
 			children = (
-				31A5FE0B149BDEA8009BE3EC /* PRHAppDelegate.h */,
-				31A5FE0C149BDEA8009BE3EC /* PRHAppDelegate.m */,
 				31A5FE1C149BDF77009BE3EC /* MainWindow_iPhone.xib */,
 				31A5FE1F149BDF89009BE3EC /* MainWindow_iPad.xib */,
 				31A5FE0E149BDEA8009BE3EC /* PRHViewController.h */,
@@ -174,7 +169,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				31A5FE09149BDEA8009BE3EC /* main.m in Sources */,
-				31A5FE0D149BDEA8009BE3EC /* PRHAppDelegate.m in Sources */,
 				31A5FE10149BDEA8009BE3EC /* PRHViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
